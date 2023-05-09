@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation/Navigation";
 import HeroSection from "../components/HeroSection";
+import BlogSection from "../components/BlogSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <Navigation />
         <HeroSection />
       </main>
+      <BlogSection />
     </>
   );
 }
