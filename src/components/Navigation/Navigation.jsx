@@ -26,7 +26,7 @@ export default function Navigation() {
       <aside
         className={`${
           show ? "absolute" : "hidden"
-        } sm:hidden w-2/3 h-3/4 py-10 top-0 bottom-20 bg-lime-200/60 backdrop-blur-[8px] shadow-md rounded animate-in slide-in-from-left-full z-20`}
+        } sm:hidden w-2/3 h-5/6 py-10 top-0 bottom-20 bg-lime-200/60 backdrop-blur-[8px] shadow-md rounded animate-in slide-in-from-left-full z-20`}
       >
         <ul className="flex flex-col items-center justify-center gap-y-6">
           <Link to="/">Blog</Link>
